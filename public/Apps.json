@@ -1,0 +1,273 @@
+[
+  {
+    "image": "https://i.ibb.co.com/ycc9LM11/tiktok-logo-black-background-vector-35997587.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 1,
+    "description": "Short-form mobile video platform to create, share and discover videos.",
+    "size": 95,
+    "reviews": 154000000,
+    "ratingAvg": 4.6,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 15000000 },
+      { "name": "3 star", "count": 25000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1Y6g0wqL/instagram-background-gradient-colors-23-2147823814.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Photo and video sharing social networking service with Stories, Reels and messaging.",
+    "size": 110,
+    "reviews": 132000000,
+    "ratingAvg": 4.5,
+    "downloads": "1.5B",
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 14000000 },
+      { "name": "3 star", "count": 22000000 },
+      { "name": "4 star", "count": 47000000 },
+      { "name": "5 star", "count": 68000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pv7zQkHH/whatsapp-icon-isolated-3d-render-illustration-47987-9785.jpg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "End-to-end encrypted messaging and voice/video calling service used globally.",
+    "size": 75,
+    "reviews": 110000000,
+    "ratingAvg": 4.7,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 24000000 },
+      { "name": "5 star", "count": 69000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0RkqpKvF/depositphotos-144034637-stock-illustration-paper-airplane-icons-vector.webp",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 4,
+    "description": "Cloud-based messaging app with large groups, bots and file sharing.",
+    "size": 60,
+    "reviews": 70000000,
+    "ratingAvg": 4.4,
+    "downloads": "700M",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 34000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5gyYyRYV/800f31dcd38e0b6129d6490d5df7df2c.jpg",
+    "title": "CapCut",
+    "companyName": "ByteDance Pte. Ltd.",
+    "id": 5,
+    "description": "Video editing app that enables creation of professional-style videos on mobile.",
+    "size": 90,
+    "reviews": 85000000,
+    "ratingAvg": 4.6,
+    "downloads": "1.4B",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 6500000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 27000000 },
+      { "name": "5 star", "count": 40000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/50jzdB9/images-q-tbn-ANd9-Gc-Syafhn6-WGBop0-Cc-Pl-GCssptdnoq-Bd79cd-B5-Q-s.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Video sharing and streaming service with billions of videos and live streams.",
+    "size": 80,
+    "reviews": 200000000,
+    "ratingAvg": 4.3,
+    "downloads": "2.5B",
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 22000000 },
+      { "name": "3 star", "count": 40000000 },
+      { "name": "4 star", "count": 58000000 },
+      { "name": "5 star", "count": 125000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FLC6PqJL/facebook-logo-vector-eps-file-squared-coloured-easily-editable-have-white-background-high-resolution.jpg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 7,
+    "description": "Social networking service to connect with friends, groups, pages and events.",
+    "size": 85,
+    "reviews": 170000000,
+    "ratingAvg": 4.1,
+    "downloads": "1.9B",
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 17000000 },
+      { "name": "3 star", "count": 34000000 },
+      { "name": "4 star", "count": 55000000 },
+      { "name": "5 star", "count": 85000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9k8Q8rz5/spotify-1759471-1280.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 8,
+    "description": "Streaming audio service offering music, podcasts and playlists worldwide.",
+    "size": 75,
+    "reviews": 60000000,
+    "ratingAvg": 4.5,
+    "downloads": "800M",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 24500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d0yrrFz4/Netflix-Symbol.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "Streaming service offering movies, TV series and original content.",
+    "size": 120,
+    "reviews": 90000000,
+    "ratingAvg": 4.2,
+    "downloads": "1.1B",
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 10000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 26000000 },
+      { "name": "5 star", "count": 50000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b59ksgS2/snapchat-app-icon-popular-messaging-app-that-lets-users-exchange-pictures-videos-277909-458.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 10,
+    "description": "Multimedia messaging app with disappearing photos/videos, Stories and AR filters.",
+    "size": 70,
+    "reviews": 68000000,
+    "ratingAvg": 4.0,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 34000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xqG435dz/images-q-tbn-ANd9-Gc-SZkj-Jsjxd-WHZx1bu22-YA-c-Jm7bic-Md7d-pfw-s.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 11,
+    "description": "Voice, video and text chat app built for communities, gaming and friends.",
+    "size": 82,
+    "reviews": 50000000,
+    "ratingAvg": 4.4,
+    "downloads": "700M",
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 19000000 },
+      { "name": "5 star", "count": 28500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3ytPzm91/1200px-Temu-logo-icon-svg.png",
+    "title": "Temu",
+    "companyName": "PDD Holdings Ltd.",
+    "id": 12,
+    "description": "Shopping platform offering global sourcing and discounts for consumers.",
+    "size": 95,
+    "reviews": 50000000,
+    "ratingAvg": 4.3,
+    "downloads": "800M",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 16000000 },
+      { "name": "5 star", "count": 24500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vvxb4Rcj/images-q-tbn-ANd9-Gc-Tq9gf-Obi1c-Wpv-LIQx-Od7nr-It3lnopq-NQNJeg-s.png",
+    "title": "Google Play Store",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Official Android app marketplace for browsing, installing and updating apps.",
+    "size": 40,
+    "reviews": 300000000,
+    "ratingAvg": 4.7,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 230000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Gf5Qn0yn/2048px-Linked-In-icon-svg.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "id": 14,
+    "description": "Professional networking platform with job postings, connections and learning.",
+    "size": 95,
+    "reviews": 40000000,
+    "ratingAvg": 4.4,
+    "downloads": "650M",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 18500000 }
+    ]
+  },
+ 
+  {
+    "image": "https://i.ibb.co.com/FbF10F9V/amazon-logo-editorial-vector-illustration-market-136495269.jpg",
+    "title": "Amazon",
+    "companyName": "Amazon.com, Inc.",
+    "id": 15,
+    "description": "E-commerce platform and shopping app for millions of products worldwide.",
+    "size": 100,
+    "reviews": 120000000,
+    "ratingAvg": 4.3,
+    "downloads": "1.5B",
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 11000000 },
+      { "name": "3 star", "count": 20000000 },
+      { "name": "4 star", "count": 39000000 },
+      { "name": "5 star", "count": 56000000 }
+    ]
+  }
+]
