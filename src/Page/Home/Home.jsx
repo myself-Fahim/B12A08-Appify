@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Links, useLoaderData } from 'react-router';
+import { Link, Links,  useNavigate } from 'react-router';
 import playStore from './../../assets/PlayStore_Icon.svg'
 import appStore from './../../assets/AppStore.svg'
 import phone from './../../assets3/hero.png'
@@ -11,7 +11,22 @@ import useApps from '../../Hooks/useApps';
 const Home = () => {
 
     const {Apps} = useApps();
+    // console.log(Apps)
     const AppsData = Apps.slice(0, 8)
+    const navigate = useNavigate()
+
+    const navigateDetails = (id) =>{
+        navigate(`details/${id}`)
+    }
+
+
+    const handlePlayStore = () =>{
+        window.open("https://play.google.com/store/apps?hl=en","_blank")
+    }
+
+    const handleAppStore = ()=>{
+        window.open("https://www.apple.com/app-store/","_blank")
+    }
 
     return (
 
@@ -26,7 +41,7 @@ const Home = () => {
                 </p>
 
                 <div className='flex justify-center gap-[16px] pb-[40px]'>
-                    <Link className='flex items-center gap-[10px] btn btn-outline w-fit
+                    <Link onClick={handlePlayStore} className='flex items-center gap-[10px] btn btn-outline w-fit
                     border-[#D2D2D2] bg-yellow-50'>
                         <div className='h-[25px] w-[25px]'>
                             <img className='w-[100%] h-[100%]' src={playStore} />
@@ -34,7 +49,7 @@ const Home = () => {
                         <h1>Google Play</h1>
                     </Link>
 
-                    <Link className='flex items-center gap-[10px] btn btn-outline w-fit
+                    <Link onClick={handleAppStore} className='flex items-center gap-[10px] btn btn-outline w-fit
                     border-[#D2D2D2] bg-yellow-50'>
                         <div className='h-[25px] w-[25px]'>
                             <img className='w-[100%] h-[100%]' src={appStore} />
@@ -82,7 +97,8 @@ const Home = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] mx-auto pb-[40px]'>
                     {
-                        AppsData.map(App => <HomeCard key={App.id} App={App} ></HomeCard>)
+                        AppsData.map(App => <HomeCard key={App.id} App={App}
+                            navigateDetails={navigateDetails} ></HomeCard>)
                     }
                 </div>
 

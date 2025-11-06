@@ -7,32 +7,40 @@ import Home from './Page/Home/Home.jsx';
 import Root from './Root/Root.jsx';
 import Apps from './Page/Apps/Apps.jsx';
 import Installation from './Page/Installation/Installation.jsx';
+import AppDetails from './Page/AppDetails/AppDetails.jsx';
 
 const router = createBrowserRouter([
   {
-    path:'/',
-    Component:Root,
-    children:[
+    path: '/',
+    Component: Root,
+    children: [
       {
-        path:'/',
-        loader:()=>fetch('Apps.json'),
-        Component:Home
+        path: '/',
+        loader: () => fetch('Apps.json'),
+        Component: Home
       },
       {
-        path:'apps',
-        Component:Apps
+        path: 'apps',
+        Component: Apps
       },
       {
-        path:'installation',
-        Component:Installation
-      }
+        path: 'installation',
+        Component: Installation
+      },
+
     ]
   },
 
+  {
+    path: 'details/:id',
+    Component: AppDetails
+
+  }
 
 
-  
-  
+
+
+
 ])
 
 createRoot(document.getElementById('root')).render(

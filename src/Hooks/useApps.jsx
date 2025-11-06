@@ -7,12 +7,12 @@ const useApps = () => {
 
 
     useEffect(() => {
-        fetch('Apps.json')
+        fetch('../Apps.json')
             .then(res => res.json())
             .then(data => setApps(data))
     }, [])
 
-    return { Apps }
+    return { Apps}
 
 }
 export default useApps

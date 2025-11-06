@@ -1,13 +1,17 @@
 import React from 'react';
 import download from './../../assets/icon-downloads.png'
 import rating from './../../assets/icon-ratings.png'
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 
-const HomeCard = ({ App,navigateDetails }) => {
- 
+const AllAppsCard = ({ App }) => {
+    const navigate = useNavigate()
+    const detailsApp = () =>{
+        navigate(`/details/${App.id}`)
+    }
+
     return (
         <div>
-            <div onClick={ ()=> navigateDetails(App.id)} className="card bg-base-100 rounded-[4px] p-[16px] shadow-sm hover:scale-105 transition ease-in-out">
+            <div onClick={detailsApp}  className="card bg-base-100 rounded-[4px] p-[16px] shadow-sm hover:scale-105 transition ease-in-out">
                 <figure className=' h-[316px] mx-auto '>
                     <img className='h-full w-full rounded-[8px]'
                         src={App.image}
@@ -32,8 +36,9 @@ const HomeCard = ({ App,navigateDetails }) => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };
 
-export default HomeCard;
+export default AllAppsCard;

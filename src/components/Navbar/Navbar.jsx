@@ -24,10 +24,10 @@ const Navbar = () => {
                             <NavLink className='font-[inter]' to='/installation'>Instalaltion</NavLink>
                         </ul>
                     </div>
-                    <div className='w-[40px] h-[40px] flex gap-1 items-center'>
+                    <Link to='/' className='w-[40px] h-[40px] flex gap-1 items-center'>
                         <img className='w-[100%] h-[100%]' src={Logo}/>
                         <h1 className='font-[inter] font-bold text-[#632EE3]'>Appify</h1>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
