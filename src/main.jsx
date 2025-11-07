@@ -28,18 +28,14 @@ const router = createBrowserRouter([
         Component: Installation
       },
 
+      {
+        path: 'details/:id',
+        Component: AppDetails
+
+      }
+
     ]
-  },
-
-  {
-    path: 'details/:id',
-    Component: AppDetails
-
   }
-
-
-
-
 
 ])
 

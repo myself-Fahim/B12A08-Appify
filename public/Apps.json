@@ -4,17 +4,32 @@
     "title": "TikTok",
     "companyName": "ByteDance Ltd.",
     "id": 1,
-    "description": "Short-form mobile video platform to create, share and discover videos.",
+    "description": "TikTok is a short-form mobile video platform that lets users create, share, and discover creative videos across a wide range of genres. It enables expression through music, lip-syncing, comedy, education, and challenges. The app’s algorithm learns user preferences and delivers a highly personalized 'For You' feed. TikTok promotes trends, viral content, and digital influencers, shaping global internet culture. It supports in-app editing tools with filters, sounds, and effects. Users can collaborate using Duets or Stitch features for interactive creativity. Its Discover section highlights trending sounds, hashtags, and creators. The platform also fosters brand engagement through advertising and influencer campaigns. With billions of downloads, TikTok redefines social entertainment and mobile video storytelling worldwide.",
     "size": 95,
-    "reviews": 154000000,
+    "reviews": "154M",
     "ratingAvg": 4.6,
     "downloads": "2B",
     "ratings": [
-      { "name": "1 star", "count": 10000000 },
-      { "name": "2 star", "count": 15000000 },
-      { "name": "3 star", "count": 25000000 },
-      { "name": "4 star", "count": 45000000 },
-      { "name": "5 star", "count": 90000000 }
+      {
+        "name": "1 star",
+        "count": 10000000
+      },
+      {
+        "name": "2 star",
+        "count": 15000000
+      },
+      {
+        "name": "3 star",
+        "count": 25000000
+      },
+      {
+        "name": "4 star",
+        "count": 45000000
+      },
+      {
+        "name": "5 star",
+        "count": 90000000
+      }
     ]
   },
   {
@@ -22,17 +37,32 @@
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 2,
-    "description": "Photo and video sharing social networking service with Stories, Reels and messaging.",
+    "description": "Instagram is a global photo and video sharing social networking app connecting millions through visual storytelling. It features Stories, Reels, and direct messaging to enhance personal and creative expression. Users can explore new content through hashtags, location tags, and the Explore tab. The app enables creators and brands to reach followers through engaging visual content. Instagram’s Reels encourage short-form video creativity and competition with TikTok. Businesses use it for targeted ads, influencer partnerships, and product showcases. Its algorithm prioritizes engagement and relevancy, tailoring feeds to user behavior. Instagram also integrates shopping features, allowing in-app purchases from creators and stores. The platform continues to evolve, blending lifestyle, marketing, and communication seamlessly.",
     "size": 110,
-    "reviews": 132000000,
+    "reviews": "132M",
     "ratingAvg": 4.5,
     "downloads": "1.5B",
     "ratings": [
-      { "name": "1 star", "count": 9000000 },
-      { "name": "2 star", "count": 14000000 },
-      { "name": "3 star", "count": 22000000 },
-      { "name": "4 star", "count": 47000000 },
-      { "name": "5 star", "count": 68000000 }
+      {
+        "name": "1 star",
+        "count": 9000000
+      },
+      {
+        "name": "2 star",
+        "count": 14000000
+      },
+      {
+        "name": "3 star",
+        "count": 22000000
+      },
+      {
+        "name": "4 star",
+        "count": 47000000
+      },
+      {
+        "name": "5 star",
+        "count": 68000000
+      }
     ]
   },
   {
@@ -40,17 +70,32 @@
     "title": "WhatsApp",
     "companyName": "Meta Platforms, Inc.",
     "id": 3,
-    "description": "End-to-end encrypted messaging and voice/video calling service used globally.",
+    "description": "WhatsApp is an end-to-end encrypted messaging and voice/video calling app used by billions worldwide. It offers free global communication over Wi-Fi or mobile data with excellent reliability. Users can send text, photos, videos, voice notes, and documents instantly. The platform supports group chats for families, teams, and communities. WhatsApp Business provides tools for automated responses, catalogs, and analytics. Its encryption ensures privacy and security across every conversation. Status updates let users share moments temporarily with their contacts. Multi-device syncing enhances accessibility across web and mobile. WhatsApp’s simplicity and reliability have made it one of the most trusted apps in digital communication.",
     "size": 75,
-    "reviews": 110000000,
+    "reviews": "110M",
     "ratingAvg": 4.7,
     "downloads": "2B",
     "ratings": [
-      { "name": "1 star", "count": 4000000 },
-      { "name": "2 star", "count": 6000000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 24000000 },
-      { "name": "5 star", "count": 69000000 }
+      {
+        "name": "1 star",
+        "count": 4000000
+      },
+      {
+        "name": "2 star",
+        "count": 6000000
+      },
+      {
+        "name": "3 star",
+        "count": 9000000
+      },
+      {
+        "name": "4 star",
+        "count": 24000000
+      },
+      {
+        "name": "5 star",
+        "count": 69000000
+      }
     ]
   },
   {
@@ -58,17 +103,32 @@
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 4,
-    "description": "Cloud-based messaging app with large groups, bots and file sharing.",
+    "description": "Telegram is a cloud-based messaging app known for its speed, security, and versatility. It enables users to send texts, photos, videos, and large files seamlessly across devices. The platform supports group chats with up to 200,000 members and broadcast channels for large audiences. Telegram bots automate services, games, and community management tools. End-to-end encrypted Secret Chats ensure privacy and message self-destruction options. Its open API encourages developers to create custom clients and integrations. The app’s cross-platform accessibility and instant syncing stand out from competitors. Telegram supports media sharing up to 2GB per file and fast search across messages. It has become a go-to communication hub for tech enthusiasts, communities, and creators alike.",
     "size": 60,
-    "reviews": 70000000,
+    "reviews": "70M",
     "ratingAvg": 4.4,
     "downloads": "700M",
     "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 4500000 },
-      { "name": "3 star", "count": 8000000 },
-      { "name": "4 star", "count": 20000000 },
-      { "name": "5 star", "count": 34000000 }
+      {
+        "name": "1 star",
+        "count": 3000000
+      },
+      {
+        "name": "2 star",
+        "count": 4500000
+      },
+      {
+        "name": "3 star",
+        "count": 8000000
+      },
+      {
+        "name": "4 star",
+        "count": 20000000
+      },
+      {
+        "name": "5 star",
+        "count": 34000000
+      }
     ]
   },
   {
@@ -76,17 +136,32 @@
     "title": "CapCut",
     "companyName": "ByteDance Pte. Ltd.",
     "id": 5,
-    "description": "Video editing app that enables creation of professional-style videos on mobile.",
+    "description": "CapCut is a mobile video editing app that helps users craft professional-quality videos easily. It supports multi-layer editing, trimming, transitions, and creative filters. Built-in templates allow quick creation for social media platforms like TikTok and Instagram. Users can add sound effects, stickers, subtitles, and motion tracking effortlessly. AI-driven tools such as auto-captioning and background removal enhance workflow. Its intuitive interface makes editing accessible to creators of all skill levels. CapCut also integrates cloud projects for collaborative video editing. The export options support HD and 4K quality output for modern content creation. It’s become a top choice for influencers, marketers, and mobile filmmakers globally.",
     "size": 90,
-    "reviews": 85000000,
+    "reviews": "85M",
     "ratingAvg": 4.6,
     "downloads": "1.4B",
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 6500000 },
-      { "name": "3 star", "count": 12000000 },
-      { "name": "4 star", "count": 27000000 },
-      { "name": "5 star", "count": 40000000 }
+      {
+        "name": "1 star",
+        "count": 5000000
+      },
+      {
+        "name": "2 star",
+        "count": 6500000
+      },
+      {
+        "name": "3 star",
+        "count": 12000000
+      },
+      {
+        "name": "4 star",
+        "count": 27000000
+      },
+      {
+        "name": "5 star",
+        "count": 40000000
+      }
     ]
   },
   {
@@ -94,17 +169,32 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 6,
-    "description": "Video sharing and streaming service with billions of videos and live streams.",
+    "description": "YouTube is a video sharing and streaming platform hosting billions of videos across every category imaginable. It empowers creators to share knowledge, entertainment, and cultural expression. The platform offers channels, subscriptions, and playlists to organize viewing experiences. Creators can monetize content through ads, memberships, and Super Chat. YouTube Shorts provides short-form video creation to rival TikTok. Users can interact via likes, comments, and live chat during streams. Personalized recommendations adapt to each viewer’s watch habits. Premium users enjoy ad-free playback, downloads, and background listening. YouTube continues to shape modern digital media, learning, and entertainment ecosystems.",
     "size": 80,
-    "reviews": 200000000,
+    "reviews": "200M",
     "ratingAvg": 4.3,
     "downloads": "2.5B",
     "ratings": [
-      { "name": "1 star", "count": 15000000 },
-      { "name": "2 star", "count": 22000000 },
-      { "name": "3 star", "count": 40000000 },
-      { "name": "4 star", "count": 58000000 },
-      { "name": "5 star", "count": 125000000 }
+      {
+        "name": "1 star",
+        "count": 15000000
+      },
+      {
+        "name": "2 star",
+        "count": 22000000
+      },
+      {
+        "name": "3 star",
+        "count": 40000000
+      },
+      {
+        "name": "4 star",
+        "count": 58000000
+      },
+      {
+        "name": "5 star",
+        "count": 125000000
+      }
     ]
   },
   {
@@ -112,17 +202,32 @@
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 7,
-    "description": "Social networking service to connect with friends, groups, pages and events.",
+    "description": "Facebook is a global social networking platform connecting billions of users to share, interact, and build communities. It allows users to post updates, photos, and videos while engaging through comments and reactions. Groups and Pages serve as spaces for collaboration and brand promotion. The app supports live streaming, stories, and an integrated Marketplace for commerce. Facebook’s algorithms personalize content feeds to enhance engagement. Businesses use Meta Ads Manager for precise audience targeting and performance tracking. Messenger integration provides instant communication within the ecosystem. The platform continues to expand into virtual and augmented reality through Meta’s broader vision. It remains central to online social networking and digital marketing worldwide.",
     "size": 85,
-    "reviews": 170000000,
+    "reviews": "170M",
     "ratingAvg": 4.1,
     "downloads": "1.9B",
     "ratings": [
-      { "name": "1 star", "count": 12000000 },
-      { "name": "2 star", "count": 17000000 },
-      { "name": "3 star", "count": 34000000 },
-      { "name": "4 star", "count": 55000000 },
-      { "name": "5 star", "count": 85000000 }
+      {
+        "name": "1 star",
+        "count": 12000000
+      },
+      {
+        "name": "2 star",
+        "count": 17000000
+      },
+      {
+        "name": "3 star",
+        "count": 34000000
+      },
+      {
+        "name": "4 star",
+        "count": 55000000
+      },
+      {
+        "name": "5 star",
+        "count": 85000000
+      }
     ]
   },
   {
@@ -130,17 +235,32 @@
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 8,
-    "description": "Streaming audio service offering music, podcasts and playlists worldwide.",
+    "description": "Spotify is a streaming service that offers millions of songs, podcasts, and playlists globally. Its AI-driven recommendations curate personalized soundtracks for each listener. Users can follow artists, build playlists, and download music for offline playback. Spotify supports cross-device syncing across phones, desktops, and smart speakers. It offers ad-supported free and premium subscription tiers. Podcasts span genres from news to storytelling and exclusive originals. Artists use Spotify for insights, audience engagement, and promotion. Collaborative playlists allow social sharing of music experiences. Spotify continues to redefine the way the world listens to audio, one stream at a time.",
     "size": 75,
-    "reviews": 60000000,
+    "reviews": "60M",
     "ratingAvg": 4.5,
     "downloads": "800M",
     "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 4500000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 20000000 },
-      { "name": "5 star", "count": 24500000 }
+      {
+        "name": "1 star",
+        "count": 3000000
+      },
+      {
+        "name": "2 star",
+        "count": 4500000
+      },
+      {
+        "name": "3 star",
+        "count": 9000000
+      },
+      {
+        "name": "4 star",
+        "count": 20000000
+      },
+      {
+        "name": "5 star",
+        "count": 24500000
+      }
     ]
   },
   {
@@ -148,17 +268,32 @@
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 9,
-    "description": "Streaming service offering movies, TV series and original content.",
+    "description": "Netflix is a global streaming platform offering movies, TV shows, and exclusive originals across genres. It delivers high-quality streaming with adaptive video resolution based on internet speed. The library includes international films, documentaries, and award-winning productions. Netflix Originals have set new standards for streaming storytelling. Users can download content for offline viewing and manage multiple profiles per account. The recommendation engine personalizes suggestions for each viewer. Parental controls and content ratings provide safe family experiences. Subtitles and dubbing support multilingual accessibility. Netflix has revolutionized home entertainment and binge-watching culture worldwide.",
     "size": 120,
-    "reviews": 90000000,
+    "reviews": "90M",
     "ratingAvg": 4.2,
     "downloads": "1.1B",
     "ratings": [
-      { "name": "1 star", "count": 8000000 },
-      { "name": "2 star", "count": 10000000 },
-      { "name": "3 star", "count": 18000000 },
-      { "name": "4 star", "count": 26000000 },
-      { "name": "5 star", "count": 50000000 }
+      {
+        "name": "1 star",
+        "count": 8000000
+      },
+      {
+        "name": "2 star",
+        "count": 10000000
+      },
+      {
+        "name": "3 star",
+        "count": 18000000
+      },
+      {
+        "name": "4 star",
+        "count": 26000000
+      },
+      {
+        "name": "5 star",
+        "count": 50000000
+      }
     ]
   },
   {
@@ -166,17 +301,32 @@
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 10,
-    "description": "Multimedia messaging app with disappearing photos/videos, Stories and AR filters.",
+    "description": "Snapchat is a multimedia messaging app that emphasizes fun, spontaneous communication through photos and videos. Its signature feature, Snaps, disappear after viewing to encourage authentic sharing. Stories allow users to compile daily highlights viewable for 24 hours. Augmented reality filters and Bitmoji integration enhance creative expression. Snap Map enables location-based social interactions with friends. Discover showcases content from creators and publishers worldwide. The app’s privacy-first design appeals to younger audiences seeking genuine interaction. Chat functions include voice, video, and text communication. Snapchat continues to evolve with features like Spotlight and AI-driven lenses for immersive experiences.",
     "size": 70,
-    "reviews": 68000000,
+    "reviews": "68M",
     "ratingAvg": 4.0,
     "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 12000000 },
-      { "name": "4 star", "count": 22000000 },
-      { "name": "5 star", "count": 34000000 }
+      {
+        "name": "1 star",
+        "count": 5000000
+      },
+      {
+        "name": "2 star",
+        "count": 7000000
+      },
+      {
+        "name": "3 star",
+        "count": 12000000
+      },
+      {
+        "name": "4 star",
+        "count": 22000000
+      },
+      {
+        "name": "5 star",
+        "count": 34000000
+      }
     ]
   },
   {
@@ -184,17 +334,32 @@
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 11,
-    "description": "Voice, video and text chat app built for communities, gaming and friends.",
+    "description": "Discord is a voice, video, and text communication app designed for communities, gamers, and collaboration. Users organize into servers and channels for structured discussions. It supports low-latency voice chat and high-quality video streaming. Discord’s roles and permissions allow tailored moderation and control. Bots extend functionality with automation, games, and custom commands. The app integrates with gaming and productivity platforms like Twitch and Spotify. Nitro subscriptions enhance visuals, emojis, and upload limits. Screen sharing and stage channels enable interactive conversations and events. Discord has evolved from a gamer tool into a versatile hub for global online communities.",
     "size": 82,
-    "reviews": 50000000,
+    "reviews": "50M",
     "ratingAvg": 4.4,
     "downloads": "700M",
     "ratings": [
-      { "name": "1 star", "count": 2500000 },
-      { "name": "2 star", "count": 4000000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 19000000 },
-      { "name": "5 star", "count": 28500000 }
+      {
+        "name": "1 star",
+        "count": 2500000
+      },
+      {
+        "name": "2 star",
+        "count": 4000000
+      },
+      {
+        "name": "3 star",
+        "count": 9000000
+      },
+      {
+        "name": "4 star",
+        "count": 19000000
+      },
+      {
+        "name": "5 star",
+        "count": 28500000
+      }
     ]
   },
   {
@@ -202,17 +367,32 @@
     "title": "Temu",
     "companyName": "PDD Holdings Ltd.",
     "id": 12,
-    "description": "Shopping platform offering global sourcing and discounts for consumers.",
+    "description": "Temu is a global shopping platform offering affordable products directly sourced from manufacturers. It provides a wide variety of categories including fashion, home, beauty, and electronics. Users enjoy deep discounts through flash sales, coupons, and gamified shopping experiences. Temu’s logistics system supports global shipping with buyer protection and easy refunds. The platform emphasizes accessibility, affordability, and fun engagement, reshaping how consumers experience cross-border e-commerce.",
     "size": 95,
-    "reviews": 50000000,
+    "reviews": "50M",
     "ratingAvg": 4.3,
     "downloads": "800M",
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 3500000 },
-      { "name": "3 star", "count": 8000000 },
-      { "name": "4 star", "count": 16000000 },
-      { "name": "5 star", "count": 24500000 }
+      {
+        "name": "1 star",
+        "count": 2000000
+      },
+      {
+        "name": "2 star",
+        "count": 3500000
+      },
+      {
+        "name": "3 star",
+        "count": 8000000
+      },
+      {
+        "name": "4 star",
+        "count": 16000000
+      },
+      {
+        "name": "5 star",
+        "count": 24500000
+      }
     ]
   },
   {
@@ -220,17 +400,32 @@
     "title": "Google Play Store",
     "companyName": "Google LLC",
     "id": 13,
-    "description": "Official Android app marketplace for browsing, installing and updating apps.",
+    "description": "The Google Play Store is the official Android marketplace for discovering, downloading, and updating apps. It hosts millions of apps, games, movies, books, and other digital content. Integrated with Google Play Protect, it ensures safe and secure downloads through continuous malware scanning. The store supports user reviews, in-app purchases, and subscription management for developers and consumers alike. Personalized recommendations, editor’s picks, and top charts guide users to trending and high-quality content. Developers benefit from Google Play Console tools for app analytics, monetization, and distribution. The Play Store remains central to the Android ecosystem, powering global digital access and innovation.",
     "size": 40,
-    "reviews": 300000000,
+    "reviews": "300M",
     "ratingAvg": 4.7,
     "downloads": "5B",
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 8000000 },
-      { "name": "3 star", "count": 15000000 },
-      { "name": "4 star", "count": 45000000 },
-      { "name": "5 star", "count": 230000000 }
+      {
+        "name": "1 star",
+        "count": 5000000
+      },
+      {
+        "name": "2 star",
+        "count": 8000000
+      },
+      {
+        "name": "3 star",
+        "count": 15000000
+      },
+      {
+        "name": "4 star",
+        "count": 45000000
+      },
+      {
+        "name": "5 star",
+        "count": 230000000
+      }
     ]
   },
   {
@@ -238,36 +433,65 @@
     "title": "LinkedIn",
     "companyName": "Microsoft Corporation",
     "id": 14,
-    "description": "Professional networking platform with job postings, connections and learning.",
+    "description": "LinkedIn is a professional networking platform connecting millions of professionals, companies, and job seekers globally. It enables users to showcase their experience, skills, and achievements while expanding their professional networks. Businesses use LinkedIn for recruitment, marketing, and thought leadership. The platform features job listings, company pages, and professional communities for industry discussions. LinkedIn Learning provides courses for career development and upskilling. Its feed highlights insights, articles, and updates from connections and organizations. With tools for messaging, endorsements, and analytics, LinkedIn remains the leading destination for career growth and business networking.",
     "size": 95,
-    "reviews": 40000000,
+    "reviews": "40M",
     "ratingAvg": 4.4,
     "downloads": "650M",
     "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 2500000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 13000000 },
-      { "name": "5 star", "count": 18500000 }
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 2500000
+      },
+      {
+        "name": "3 star",
+        "count": 5000000
+      },
+      {
+        "name": "4 star",
+        "count": 13000000
+      },
+      {
+        "name": "5 star",
+        "count": 18500000
+      }
     ]
   },
- 
   {
     "image": "https://i.ibb.co.com/FbF10F9V/amazon-logo-editorial-vector-illustration-market-136495269.jpg",
     "title": "Amazon",
     "companyName": "Amazon.com, Inc.",
     "id": 15,
-    "description": "E-commerce platform and shopping app for millions of products worldwide.",
+    "description": "Amazon is a global e-commerce and technology platform offering millions of products across every imaginable category. It provides a seamless shopping experience with personalized recommendations, one-click purchasing, and reliable delivery options. Users can browse electronics, fashion, books, groceries, and more. The app integrates with Alexa for voice-enabled shopping and tracking. Amazon Prime members enjoy exclusive deals, free shipping, and access to Prime Video and Music. Sellers benefit from Amazon Marketplace and analytics tools. The platform’s global logistics, innovation, and customer-centric design make it the most trusted name in online retail.",
     "size": 100,
-    "reviews": 120000000,
+    "reviews": "120M",
     "ratingAvg": 4.3,
     "downloads": "1.5B",
     "ratings": [
-      { "name": "1 star", "count": 7000000 },
-      { "name": "2 star", "count": 11000000 },
-      { "name": "3 star", "count": 20000000 },
-      { "name": "4 star", "count": 39000000 },
-      { "name": "5 star", "count": 56000000 }
+      {
+        "name": "1 star",
+        "count": 7000000
+      },
+      {
+        "name": "2 star",
+        "count": 11000000
+      },
+      {
+        "name": "3 star",
+        "count": 20000000
+      },
+      {
+        "name": "4 star",
+        "count": 39000000
+      },
+      {
+        "name": "5 star",
+        "count": 56000000
+      }
     ]
   }
 ]
