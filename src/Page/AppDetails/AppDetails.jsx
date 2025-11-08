@@ -6,26 +6,26 @@ import download from './../../assets/icon-downloads.png'
 import rating from './../../assets/icon-ratings.png'
 import like from './../../assets/Like.svg'
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import {  getItemFromStorage, updateItemToStorage } from '../../LocalStorage/LocalStorage';
+import { getItemFromStorage, updateItemToStorage } from '../../LocalStorage/LocalStorage';
 
 const AppDetails = () => {
     const { Apps } = useApps();
     const { id } = useParams();
-    const [include,setInclude] = useState(false)
+    const [include, setInclude] = useState(false)
     const clickedApp = Apps.find(App => (App.id == id))
 
-    useEffect(()=>{
+    useEffect(() => {
         const installedApps = getItemFromStorage()
-        if(installedApps.includes(id))
+        if (installedApps.includes(id))
             setInclude(true)
 
-    },[id])
+    }, [id])
 
-    const handleInstall = (id) =>{
-       updateItemToStorage(id)
-       setInclude(true)
+    const handleInstall = (id) => {
+        updateItemToStorage(id)
+        setInclude(true)
     }
-   
+
     if (!clickedApp) {
         return (
             <div className="pt-[80px] text-center text-gray-500">
@@ -76,17 +76,14 @@ const AppDetails = () => {
                     </div>
 
 
-                    <button disabled={include} onClick={()=>{
-                       handleInstall(id)
-                    }} className={`btn mt-[20px] text-[inter] ${include ? 'bg-gray-400' :'bg-[#00D390]' } text-white`}>
-                      {
-                        include ? 'Installed' : `Install Now (${size} MB)` 
-                      }  
+                    <button disabled={include} onClick={() => {
+                        handleInstall(id)
+                    }} className={`btn mt-[20px] text-[inter] ${include ? 'bg-gray-400' : 'bg-[#00D390]'} text-white`}>
+                        {
+                            include ? 'Installed' : `Install Now (${size} MB)`
+                        }
                     </button>
                 </div>
-
-
-
             </section>
 
             <div className='pt-[40px] pb-[30px] border-b border-[#001931]/20  '>

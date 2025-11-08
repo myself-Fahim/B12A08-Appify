@@ -20,4 +20,13 @@ const updateItemToStorage = (Id) => {
     }
 
 }
-export { addItemToStorage, getItemFromStorage, updateItemToStorage }
+
+const removeItemFromStorage = (id) =>{
+    const prevItem = getItemFromStorage();
+    console.log(prevItem)
+    const newItem = prevItem.filter(item => item !== String(id))
+    addItemToStorage(newItem)
+}
+
+
+export { addItemToStorage, getItemFromStorage, updateItemToStorage,removeItemFromStorage }
