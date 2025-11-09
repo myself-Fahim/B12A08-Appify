@@ -9,13 +9,30 @@ import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxi
 import { getItemFromStorage, updateItemToStorage } from '../../LocalStorage/LocalStorage';
 import Loader from '../../components/Loader/Loader';
 import { toast, ToastContainer } from 'react-toastify';
+import AppError from '../AppError/AppError';
 
 const AppDetails = () => {
     const { Apps } = useApps();
     const { id } = useParams();
     const [include, setInclude] = useState(false)
-    const clickedApp = Apps.find(App => (App.id == id))
 
+    const clickedApp = Apps.find(App => (App.id == id))
+    console.log(clickedApp)
+
+    if(isNaN(id) || (Apps.length > 0 && !clickedApp )  )
+    {
+        return <AppError></AppError>
+    }
+
+
+
+
+
+
+
+
+
+    
     useEffect(() => {
         const installedApps = getItemFromStorage()
         if (installedApps.includes(id))
@@ -35,8 +52,8 @@ const AppDetails = () => {
 
 
     return (
-        !clickedApp ? <div className="flex border items-center justify-center min-h-screen">
-            <Loader />
+        !clickedApp ? <div className="flex items-center justify-center min-h-screen">
+            <Loader /> 
         </div> :
             <div className='px-0 md:px-[30px] lg:px-[80px] pb-[70px]'>
                 <section className='pt-[80px]  w-fit mx-auto md:w-full md:mx-0 flex flex-col md:flex-row gap-10 pb-[30px] border-b border-[#001931]/20 '>
