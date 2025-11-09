@@ -1,31 +1,32 @@
 import React from 'react';
-import { Link, Links,  useNavigate } from 'react-router';
+import { Link, Links, useNavigate } from 'react-router';
 import playStore from './../../assets/PlayStore_Icon.svg'
 import appStore from './../../assets/AppStore.svg'
 import phone from './../../assets3/hero.png'
 import HomeCard from '../../components/HomeCard/HomeCard';
 import useApps from '../../Hooks/useApps';
+import Loader from '../../components/Loader/Loader';
 
 
 
 const Home = () => {
 
-    const {Apps} = useApps();
+    const { Apps, Loading } = useApps();
     // console.log(Apps)
     const AppsData = Apps.slice(0, 8)
     const navigate = useNavigate()
 
-    const navigateDetails = (id) =>{
+    const navigateDetails = (id) => {
         navigate(`details/${id}`)
     }
 
 
-    const handlePlayStore = () =>{
-        window.open("https://play.google.com/store/apps?hl=en","_blank")
+    const handlePlayStore = () => {
+        window.open("https://play.google.com/store/apps?hl=en", "_blank")
     }
 
-    const handleAppStore = ()=>{
-        window.open("https://www.apple.com/app-store/","_blank")
+    const handleAppStore = () => {
+        window.open("https://www.apple.com/app-store/", "_blank")
     }
 
     return (
@@ -95,12 +96,18 @@ const Home = () => {
                     <p className='text-[#627382] font-[inter] text-center'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] mx-auto pb-[40px]'>
-                    {
-                        AppsData.map(App => <HomeCard key={App.id} App={App}
-                            navigateDetails={navigateDetails} ></HomeCard>)
-                    }
-                </div>
+                {
+                    Loading ? <Loader></Loader>
+                        : <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] mx-auto pb-[40px]'>
+                            {
+                                AppsData.map(App => <HomeCard key={App.id} App={App}
+                                    navigateDetails={navigateDetails} ></HomeCard>)
+                            }
+                        </div>
+                }
+
+
+
 
 
                 <div className='w-fit mx-auto'>

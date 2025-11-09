@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import useApps from '../../Hooks/useApps';
 import { getItemFromStorage } from '../../LocalStorage/LocalStorage';
 import InstalledApps from '../../components/InstalledApps/InstalledApps';
+import Loader from '../../components/Loader/Loader';
 
 
 
@@ -11,11 +12,13 @@ const Installation = () => {
     const [sort, setSort] = useState('none')
 
     if (!Apps || Apps.length === 0) {
-        return <h1>Data Loading..</h1>
+        return <div className='min-h-screen flex justify-center items-center'>
+            <Loader></Loader>
+        </div>
     }
     const installedAppsObj = installedApps.map(id => Apps.find(app => app.id == id))
-     
-     
+
+
 
 
     const sortData = (
@@ -38,7 +41,7 @@ const Installation = () => {
 
 
 
-    
+
 
 
 
@@ -58,7 +61,7 @@ const Installation = () => {
                 <h1 className='text-2xl font-[inter] font-bold '>{installedAppsObj.length} App Found</h1>
                 <fieldset className="fieldset">
 
-                    <select value={sort} onChange={(e) => setSort(e.target.value)} defaultValue="Sort By Size" className="select border-none bg-[#00D390] text-white font-bold ">
+                    <select value={sort} onChange={(e) => setSort(e.target.value)} defaultValue="Sort By Size" className="select border-none bg-black text-white font-bold ">
                         <option value={'none'} >Sort By Size</option>
                         <option value={'l2h'}>Low to High </option>
                         <option value={'h2l'}>High to Low</option>

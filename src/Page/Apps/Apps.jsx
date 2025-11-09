@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import useApps from '../../Hooks/useApps';
 import AllAppsCard from '../../components/AllAppsCard/AllAppsCard';
+import Loader from '../../components/Loader/Loader';
 
 const Apps = () => {
-  const { Apps } = useApps();
+  const { Apps, Loading } = useApps();
   const [filterApp, setFilterApp] = useState([])
+  const [searchLoading, setSearchLoading] = useState(false)
 
   useEffect(() => {
     setFilterApp(Apps)
@@ -12,10 +14,14 @@ const Apps = () => {
 
 
   const handleInputChange = (e) => {
-    const value = e.target.value.split(' ').join('').toLowerCase();
-    console.log(value);
-    const newApp = Apps.filter(App => App.title.toLowerCase().includes(value));
-    setFilterApp(newApp)
+    setSearchLoading(true)
+    setTimeout(() => {
+      const value = e.target.value.split(' ').join('').toLowerCase();
+      const newApp = Apps.filter(App => App.title.toLowerCase().includes(value));
+      setFilterApp(newApp)
+      setSearchLoading(false)
+    }, 300)
+
   }
 
 
@@ -44,7 +50,7 @@ const Apps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input  onChange={handleInputChange} type="search" className="grow  text-[black] " placeholder="Search" />
+          <input onChange={handleInputChange} type="search" className="grow  text-[black] " placeholder="Search" />
 
         </label>
       </section>
@@ -52,15 +58,19 @@ const Apps = () => {
 
       <section>
         {
-          filterApp.length === 0 ? <p className='text-center font-semibold text-[inter] text-2xl'>No App Found</p>
-          
-          :<div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] mx-auto pb-[40px] lg:px-[80px]'>
-          {
-            filterApp.map(App => <AllAppsCard key={App.id} App={App}></AllAppsCard>)
-          }
-        </div>
+          Loading || searchLoading ? <div className='min-h-screen flex justify-center items-center'>
+            <Loader></Loader>
+          </div> :
+            filterApp.length === 0 ? <p className='text-center font-semibold text-[inter] text-2xl'>No App Found</p>
 
-}
+              : <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] mx-auto pb-[40px] lg:px-[80px]'>
+                {
+
+                  filterApp.map(App => <AllAppsCard key={App.id} App={App}></AllAppsCard>)
+                }
+              </div>
+
+        }
       </section>
     </div>
   );
