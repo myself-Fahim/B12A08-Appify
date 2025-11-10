@@ -10,7 +10,7 @@ const Root = () => {
             <div className='flex-1 overflow-auto bg-[#E5E7EB]'>
                 <Outlet></Outlet>
             </div>
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </div>
     );
 };

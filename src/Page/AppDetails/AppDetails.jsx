@@ -109,11 +109,12 @@ const AppDetails = () => {
                         <BarChart
                             data={ratings}
                             layout="vertical"
+                             margin={{ top: 20, right: 50, left: 20, bottom: 10 }}
                         >
                             <XAxis type='number'
-                                interval={0}   ></XAxis>
+                                interval={0} axisLine={false} tickLine={false}   ></XAxis>
                             <YAxis
-                                dataKey="name" type="category" reversed></YAxis>
+                                dataKey="name" type="category" reversed axisLine={false} tickLine={false} ></YAxis>
                             <Tooltip></Tooltip>
                             <Bar dataKey="count" fill="#F81" barSize={32} ></Bar>
                         </BarChart>

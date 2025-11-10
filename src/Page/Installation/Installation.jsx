@@ -3,6 +3,8 @@ import useApps from '../../Hooks/useApps';
 import { getItemFromStorage } from '../../LocalStorage/LocalStorage';
 import InstalledApps from '../../components/InstalledApps/InstalledApps';
 import Loader from '../../components/Loader/Loader';
+import { toast, ToastContainer } from 'react-toastify';
+
 
 
 
@@ -11,6 +13,7 @@ const Installation = () => {
     const [installedApps, setInstalledApps] = useState(getItemFromStorage())
     const [sort, setSort] = useState('none')
 
+
     if (!Apps || Apps.length === 0) {
         return <div className='min-h-screen flex justify-center items-center'>
             <Loader></Loader>
@@ -18,6 +21,9 @@ const Installation = () => {
     }
     const installedAppsObj = installedApps.map(id => Apps.find(app => app.id == id))
 
+    const toastFunc = () =>{
+        toast('Uninstalled Successfully')
+    }
 
 
 
@@ -35,19 +41,8 @@ const Installation = () => {
                 return installedAppsObj
         }
     )()
-
-
-
-
-
-
-
-
-
-
-
     return (
-        <div className='lg:px-[80px]'>
+        <div className='lg:px-[80px] min-h-screen  flex-1'>
             <div className='pb-[40px]'>
                 <h1 className='pt-[80px] text-xl md:text-4xl text-center font-bold font-[inter]'>
                     Your Installed Apps
@@ -69,19 +64,17 @@ const Installation = () => {
 
                 </fieldset>
             </div>
-
-
-
-
             <div>
                 {
                     installedAppsObj.length ?
                         sortData.map(App => <InstalledApps key={App.id} App={App}
                             installedApps={installedApps}
-                            setInstalledApps={setInstalledApps}></InstalledApps>) : <p className='font-[inter] font-bold text-xl text-center'>No Installed Apps</p>
+                          setInstalledApps={setInstalledApps}
+                          toastFunc={toastFunc}></InstalledApps>) : <p className='font-[inter] font-bold text-xl text-center'>No Installed Apps</p>
                 }
 
             </div>
+            <ToastContainer position='top-center' />
         </div>
     );
 };

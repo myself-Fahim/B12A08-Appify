@@ -3,13 +3,16 @@ import download from './../../assets/icon-downloads.png'
 import rating from './../../assets/icon-ratings.png'
 import { removeItemFromStorage } from '../../LocalStorage/LocalStorage';
 
-const InstalledApps = ({ App, installedApps, setInstalledApps }) => {
+
+const InstalledApps = ({ App, installedApps, setInstalledApps,toastFunc }) => {
 
 
     const handleUninstall = (id) =>{
         removeItemFromStorage(id)
         const updated = installedApps.filter(Id => Id !== String(id))
         setInstalledApps(updated)
+     
+         
     }
      
 
@@ -42,14 +45,12 @@ const InstalledApps = ({ App, installedApps, setInstalledApps }) => {
 
                 <button onClick={()=>{
                   handleUninstall(id)
-
+                  toastFunc()
                 }} className='btn  text-[inter] bg-[#00D390] text-white'>
                     Uninstall
                 </button>
-
-
-
             </div>
+            
         </div>
     );
 };
